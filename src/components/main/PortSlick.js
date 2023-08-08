@@ -2,6 +2,8 @@ import React,{useEffect} from 'react'
 import './main.css'
 import Slider from "react-slick";
 import bgimage from '../images/bgimage.jpg'
+import chikenlogo from '../images/chikenlogo.png'
+import shoppingmall from '../images/shoppingmall.jpg'
 import { Link } from 'react-router-dom';
 export default function PortSlick(props) {
   const settings = {
@@ -58,7 +60,7 @@ export default function PortSlick(props) {
         </div>
         <div className='' >
                 <div className="card" >
-                    <img src={bgimage} className="card-img-top" alt="bgimage"  style={{borderRadius:'50px'} }/>
+                    <img src={chikenlogo} className="card-img-top" alt="chikenlogo"  style={{borderRadius:'50px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">FOOD_HOUSE</h5>
                       <p className="card-text">full_stack project,HTML5,CSS,BOOTSTRAP,
@@ -69,7 +71,7 @@ export default function PortSlick(props) {
         </div>
         <div className=''>
                   <div className="card" >
-                  <img src={bgimage} className="card-img-top" alt="bgimage"  style={{borderRadius:'50px'} }/>
+                  <img src={shoppingmall} className="card-img-top" alt="shoppingmall"  style={{borderRadius:'50px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">SHOPPING MALL</h5>
                       <p className="card-text">full_stack project,HTML5,CSS,BOOTSTRAP,
