@@ -1,0 +1,120 @@
+
+.namedata
+{
+   font-size:20px; 
+   position:relative;
+   margin-top:30px;
+   font-family: serif;
+   background-color:transparent;
+   padding: 15px;
+   border-radius:16px;
+   border: none;
+   box-shadow:2px 2px 8px 8px  rgb(113, 119, 200) ;
+   animation-name:userdata;
+   animation-duration:4s;
+   animation-fill-mode:forwards;
+}
+.namedata:hover
+{
+  font-size:25px;
+}
+@keyframes userdata{
+  from {left: 0px;}
+  to {left: 240px;}
+  }
+.imoje
+{
+    font-size:20px; 
+   position: absolute;
+   margin-left:400px;
+   margin-top:25px;
+   animation-name:imojedata;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
+  animation-delay:3s ;
+}
+@keyframes imojedata {
+  from {left:0px;}
+  to {left: 140px;}
+    
+  }
+.userimg
+{
+    margin-top: 10px;
+}
+.skill
+{
+   margin-top:10px ;
+    width: 210px;
+    margin-left:200px;
+    font-size:25px;
+    background-color:transparent;
+     padding: 15px;
+     border-radius:16px;
+      border: none;
+      box-shadow:2px 2px 8px 8px  rgb(113, 119, 200) ;
+      position: relative;
+      font-family:serif;
+      animation-name:userskill;
+      animation-duration:4s;
+      animation-fill-mode:forwards;
+}
+.skill:hover
+{
+ color: #ef9826;
+}
+@keyframes userskill {
+  from {right: 0px;}
+  to {right: 300px;}
+  }  
+  .changetext
+  {
+   
+    color:#929ec3;
+    font-family: serif;
+  }
+  .data1
+  {
+    color:#8941d9;
+    font-size:70px;
+  }
+  .data2
+  {
+    animation-name:changecolor;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+  }
+  @keyframes changecolor
+  {
+     from{color:#ef9826;}
+     to{color:#929ec3;} 
+  }
+  .animate
+  {
+    position: relative;
+     margin-left:30px;
+     animation-name:animateimoje;
+     animation-duration:5s;
+     animation-fill-mode:forwards;
+  }
+  @keyframes animateimoje {
+    from {left:0px;}
+    to {left: 200px;}
+    }
+               
+   #contactus
+   {
+     background-color:#ef9826;
+     border-radius:30px;
+     color:white;
+     padding:10px  20px;
+     box-shadow:4px 4px 4px 4px gainsboro;
+   } 
+   #contactus:hover
+   {
+    background-color:white;
+    border-radius:30px;
+    color:#ef9826;
+    padding:10px 20px;
+    box-shadow:4px 4px 4px 4px #ef9826;
+   }

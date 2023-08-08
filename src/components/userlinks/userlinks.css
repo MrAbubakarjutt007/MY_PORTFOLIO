@@ -1,0 +1,57 @@
+
+#moves
+{
+   text-align: center;
+   width:18rem;
+   border-radius:50px;
+   box-shadow:4px 4px 6px 6px gainsboro;
+   background-color:transparent ;
+  
+
+}
+#moves:hover
+{
+    text-align:center;
+    width:18rem;
+   border-radius:50px;
+   box-shadow:4px 4px 6px 6px #ef9826;
+
+}
+#movediv
+{
+    text-align: center;
+    width:18rem;
+   border-radius:50px ;
+   box-shadow:4px 4px 6px 6px gainsboro;
+   animation-name:divdata;
+   animation-duration:10s;
+   animation-iteration-count:infinite;
+   animation-delay:2s;
+   background-color:transparent ;
+   color: #929ec3;  
+}
+#movediv:hover
+{
+    text-align: center;
+    width:18rem;
+   border-radius:50px;
+   box-shadow:4px 4px 6px 6px #ef9826;
+
+}
+@keyframes divdata
+{
+    from {left: 0px;}
+    to {left: 100px;}
+}
+.danger
+{
+    color: #929ec3;
+}
+.fillcolor
+{
+    color: #929ec3;
+}
+.fillcolor:hover
+{
+    color: #ef9826;
+}

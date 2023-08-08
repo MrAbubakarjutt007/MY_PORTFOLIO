@@ -1,0 +1,23 @@
+
+.imgdata
+{
+    background-image:url('../images/light.png');
+    background-repeat: no-repeat;
+}
+.itemgit
+{
+    text-align:center;
+    margin-right:15px;
+}
+.dark
+{
+    color:white;
+}
+.dark:hover
+{
+    color:#ef9826;
+}
+#autodata
+{
+    width:200px;
+}
