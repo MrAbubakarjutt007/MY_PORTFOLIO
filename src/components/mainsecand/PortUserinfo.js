@@ -41,8 +41,6 @@ export default function PortUserinfo(props){
                   about bringing life to it with HTML, SASS, and JavaScript. Like every developer,
                   I can't survive without StackOverflow and YouTube. Wait, of course, Google too.
                   I think that "Everything has a solution, only if you're trying with patience and hard effort !!"
-                  If I need to define myself in one sentence that would be a family person, father of a beautiful
-                  daughter and son, zoophilist, photography enthusiast, and tech-obsessed!!!
               </p>
                 <a className="btn" id='contactus' href="/">CONTECT-US</a>
                   <div><img className='animate' src={glassesimg} alt="glassesimg" width={200}/>
