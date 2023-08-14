@@ -37,10 +37,12 @@ export default function PortUserinfo(props){
               <h1 className="data1"  style={{color:props.mode==='dark'?'white':'#8941d9'}}>Hi; I Am</h1>
               <span><h1 className="data2">ABUBAKAR ABDUL-GHAFFAR-PASHA</h1></span>
               <p className='changetext' style={{color:props.mode==='dark'?'white':'black'}}>
-                  An independent Full-stack Developer who likes to build things for the web and is passionate
-                  about bringing life to it with HTML, SASS, and JavaScript. Like every developer,
-                  I can't survive without StackOverflow and YouTube. Wait, of course, Google too.
-                  I think that "Everything has a solution, only if you're trying with patience and hard effort !!"
+                  An independent Full-stack Developer who likes to build things for the web and is 
+                  passionateabout bringing life to it with HTML, SASS, and JavaScript. Like every 
+                  developer,I can't survive without StackOverflow and YouTube. Wait, of course, Google
+                  too.I think that "Everything has a solution, only if you're trying with patience and 
+                  hard effort !!"
+                  
               </p>
                 <a className="btn" id='contactus' href="/">CONTECT-US</a>
                   <div><img className='animate' src={glassesimg} alt="glassesimg" width={200}/>
