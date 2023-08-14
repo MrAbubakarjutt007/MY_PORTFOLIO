@@ -31,9 +31,9 @@ export default function ContectUs(props) {
                     <div className='col-lg-12 col-md-12 col-12'>
                         <div className='d-flex'>
 
-                            <Link to="/" className='btn btn-success' >DOWNLOAD_CV <i class="fa-solid fa-download"></i></Link>
+                            <Link to="/" className='btn btn-success' >DOWNLOAD_CV <i className="fa-solid fa-download"></i></Link>
 
-                            <Link to="/" className='btn btn-success mx-3' >DOWNLOAD_NOTES <i class="fa-solid fa-download"></i></Link>
+                            <Link to="/" className='btn btn-success mx-3' >DOWNLOAD_NOTES <i className="fa-solid fa-download"></i></Link>
 
                         </div>
                     </div>
