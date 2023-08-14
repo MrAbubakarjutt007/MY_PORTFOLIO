@@ -1,7 +1,6 @@
 
 .namedata
 {
-   font-size:20px; 
    position:relative;
    margin-top:30px;
    font-family: serif;
@@ -15,10 +14,6 @@
    animation-fill-mode:forwards;
    
 }
-.namedata:hover
-{
-  font-size:22px;
-}
 @keyframes userdata{
   from {left: 0px;}
   to {left: 190px;}
@@ -27,7 +22,7 @@
 {
     font-size:20px; 
    position: absolute;
-   margin-left:400px;
+   margin-left:-80px;
    margin-top:25px;
    animation-name:imojedata;
   animation-duration: 5s;
@@ -35,8 +30,8 @@
   animation-delay:3s ;
 }
 @keyframes imojedata {
-  from {left:0px;}
-  to {left: 140px;}
+  from {top:0px;}
+  to {top: 140px;}
     
   }
 .userimg

@@ -1,0 +1,60 @@
+#divsize
+{
+  width: 90%;
+}
+#colordata
+{
+    color: #ef9826;
+}
+.form-control
+{
+    border-color: #ef9826;
+}
+#contectbtn
+{
+    margin-left:35%;
+    color:white;
+    background-color:#ef9826;
+    border-radius:16px;
+    box-shadow:2px 2px 4px 4px #929ec3;
+}
+#contectbtn:hover
+{
+    color:#ef9826;
+    background-color:black;
+    box-shadow:2px 2px 4px 4px #929ec3;
+}
+.CVdownload
+{
+    border-radius:16px;
+}
+.btn-success
+{ 
+    background-color:black;
+    color:gray;
+    border-radius:16px;
+    box-shadow:2px 2px 4px 4px #ef9826;
+   
+    border: none;
+}
+.btn-success:hover
+{
+  
+    background-color:#ef9826;
+    color:white;
+    border-radius:16px;
+    box-shadow:2px 2px 4px 4px #929ec3;
+    border: none;
+    
+}
+.chanimations
+{
+    animation-name:changecolor;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes changecolor
+{
+   from{color:#ef9826;}
+   to{color:blue;} 
+}

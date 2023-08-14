@@ -22,7 +22,7 @@ export default function PortNav(props) {
           <Link className="nav-link" to="/projectinfo" id='textcolor'>PROJECTS</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/" id='textcolor'>CONTECT US</Link>
+          <Link className="nav-link" to="/ContectMe" id='textcolor'>CONTECT US</Link>
         </li>
       </ul>
       <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>

@@ -12,6 +12,7 @@ import {
   Route
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
+import ContectUs from './components/contectus/ContectUs';
 
 
 function App() {
@@ -64,7 +65,8 @@ const togalData=()=>
         <Routes>
         <Route path='/' element={<PortUserinfo  mode={mode} setProgress={setProgress}/>}/>    
        <Route path='/projectinfo' element={<PortSlick setProgress={setProgress} />}/>
-       <Route path='/information' element={ <PortUser mode={mode} setProgress={setProgress} />}/>      
+       <Route path='/information' element={ <PortUser mode={mode} setProgress={setProgress} />}/>
+       <Route path='/ContectMe' element={ <ContectUs mode={mode} setProgress={setProgress}/>}/>       
        
        
        {/* <PortUser/>
