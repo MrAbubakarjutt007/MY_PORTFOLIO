@@ -1,6 +1,7 @@
 import React from 'react'
-import "./Contectstyle.css"
-import { Link } from 'react-router-dom'
+import './Contectstyle.css'
+
+
 export default function ContectUs(props) {
     return (
         <>
@@ -31,13 +32,13 @@ export default function ContectUs(props) {
                     <div className='col-lg-12 col-md-12 col-12'>
                         <div className='d-flex'>
 
-                            <Link to="/" className='btn btn-success' >DOWNLOAD_CV <i className="fa-solid fa-download"></i></Link>
+                            <a href="#" className='btn btn-success' download="">DOWNLOAD_CV <i className="fa-solid fa-download"></i></a>
 
-                            <Link to="/" className='btn btn-success mx-3' >DOWNLOAD_NOTES <i className="fa-solid fa-download"></i></Link>
+                            <a href="#" className='btn btn-success mx-3'  download=" " >DOWNLOAD_NOTES <i className="fa-solid fa-download"></i></a>
 
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </>
     )
