@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import './main.css'
 import Slider from "react-slick";
 import calculatevalue from '../images/calculatevalue.jpg'
+import homeimagedata from '../images/homeimagedata.png'
 import textcounterimg from '../images/textcounterimg.jpg'
 import latestnews from '../images/latestnews.jpg'
 import chikenlogo from '../images/chikenlogo.jpg'
@@ -42,7 +43,7 @@ export default function PortSlick(props) {
       <Slider {...settings}>
         <div className=''>
                <div className="card">
-                    <img src={textcounterimg} className="card-img-top" alt="textcounterimg" style={{borderRadius:'50px'} }/>
+                    <img src={textcounterimg} className="card-img-top" alt={textcounterimg} style={{borderRadius:'50px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">TEXT_COUNTER</h5>
                       <p className="card-text">MY REACT PROJECT,USING FUNCTION-BASE-COMPONENTS REACT BIGNNER PROJECT</p>
@@ -52,7 +53,7 @@ export default function PortSlick(props) {
         </div>
         <div className=''>
                   <div className="card" >
-                  <img src={calculatevalue} className="card-img-top" alt="calculatevalue"  style={{borderRadius:'50px'} }/>
+                  <img src={calculatevalue} className="card-img-top" alt={calculatevalue}  style={{borderRadius:'50px',height:'160px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">CALCULATER</h5>
                       <p className="card-text">my shot project,animated calculater.
@@ -63,7 +64,7 @@ export default function PortSlick(props) {
         </div>
         <div className='' >
                 <div className="card" >
-                    <img src={chikenlogo} className="card-img-top" alt="chikenlogo"  style={{borderRadius:'50px'} } id='imagechange'/>
+                    <img src={chikenlogo} className="card-img-top" alt={chikenlogo}  style={{borderRadius:'50px'} } id='imagechange'/>
                     <div className="card-body">
                       <h5 className="card-title">FOOD_HOUSE</h5>
                       <p className="card-text">full_stack project,HTML5,CSS,BOOTSTRAP,
@@ -74,7 +75,7 @@ export default function PortSlick(props) {
         </div>
         <div className=''>
                   <div className="card" >
-                  <img src={shoppingslider4} className="card-img-top" alt="shoppingslider4"  style={{borderRadius:'50px'}}  id='imagedatain'/>
+                  <img src={shoppingslider4} className="card-img-top" alt={shoppingslider4}  style={{borderRadius:'50px'}}  id='imagedatain'/>
                     <div className="card-body">
                       <h5 className="card-title">SHOPPING MALL</h5>
                       <p className="card-text">full_stack project,HTML5,CSS,BOOTSTRAP,
@@ -85,7 +86,7 @@ export default function PortSlick(props) {
         </div>
         <div className=''>
                  <div className="card" >
-                 <img src={latestnews} className="card-img-top" alt="latestnews"  style={{borderRadius:'50px'} }/>
+                 <img src={latestnews} className="card-img-top" alt={latestnews}  style={{borderRadius:'50px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">News Headlines</h5>
                       <p className="card-text"> MY REACT API APP, FUNCTION-BASE-COMPONENTS,FULL_STACK APP</p>
@@ -95,11 +96,21 @@ export default function PortSlick(props) {
         </div>
         <div className=''>
                  <div className="card" >
-                 <img src={bannershorizontal} className="card-img-top" alt="bannershorizontal" style={{borderRadius:'50px'} }/>
+                 <img src={bannershorizontal} className="card-img-top" alt={bannershorizontal} style={{borderRadius:'50px'} }/>
                     <div className="card-body">
                       <h5 className="card-title">BORJAN DAMO</h5>
                       <p className="card-text">MY FRONTEND PROJECT WITH HTML AND CSS,BORJAN WITH MY CODE</p>
                       <Link to="https://mrabubakarjuttborjanshouse.netlify.app/" className="btn text-danger">BORJAN</Link>
+                    </div>
+                  </div>
+        </div>
+        <div className=''>
+                 <div className="card" >
+                 <img src={homeimagedata} className="card-img-top" alt={homeimagedata} width={100}  style={{borderRadius:'50px',height:'187px'}}/>
+                    <div className="card-body">
+                      <h5 className="card-title">G/S_PORTFOLIO</h5>
+                      <p className="card-text">React,TAILWIND,BOOTSTRAP5, PROJECT WITH GOLD</p>
+                      <Link to="https://mrabubakarjuttgoldenportfolio.netlify.app/" className="btn text-danger">G/S_PORTFOLIO</Link>
                     </div>
                   </div>
         </div>

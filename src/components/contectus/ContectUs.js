@@ -11,7 +11,7 @@ export default function ContectUs(props) {
                         <h1 className='my-3' style={{color:props.mode==='dark'?'white':'black'}}>CONTECT WITH<span className='chanimations'> ME</span></h1>
                         <form className='my-5'>
                             <div className="mb-3" id='divsize'>
-                                <label htmlFor="Username" className="form-label" id="colordata">Email address</label>
+                                <label htmlFor="Username" className="form-label" id="colordata">Name</label>
                                 <input type="text" className="form-control" id="example" placeholder="NAME" />
                             </div>
                             <div className="mb-3" id='divsize'>
