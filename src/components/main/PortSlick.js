@@ -8,6 +8,7 @@ import latestnews from '../images/latestnews.jpg'
 import chikenlogo from '../images/chikenlogo.jpg'
 import shoppingslider4 from '../images/shoppingslider4.jpg'
 import bannershorizontal from '../images/bannershorizontal.png'
+import weatherapp from '../images/weatherapp.png'
 import { Link } from 'react-router-dom';
 export default function PortSlick(props) {
   const settings = {
@@ -111,6 +112,16 @@ export default function PortSlick(props) {
                       <h5 className="card-title">G/S_PORTFOLIO</h5>
                       <p className="card-text">React,TAILWIND,BOOTSTRAP5, PROJECT WITH GOLD</p>
                       <Link to="https://mrabubakarjuttgoldenportfolio.netlify.app/" className="btn text-danger">G/S_PORTFOLIO</Link>
+                    </div>
+                  </div>
+        </div>
+        <div className=''>
+                 <div className="card" >
+                 <img src={weatherapp} className="card-img-top" alt={weatherapp} width={100}  style={{borderRadius:'50px',height:'187px'}}/>
+                    <div className="card-body">
+                      <h5 className="card-title">WEATHER_APP</h5>
+                      <p className="card-text">React,OPENWEATHER_API PROJECT WITH GOLD</p>
+                      <Link to="https://mrabubakarjuttgoldenportfolio.netlify.app/" className="btn text-danger">WEATHER_APP</Link>
                     </div>
                   </div>
         </div>
