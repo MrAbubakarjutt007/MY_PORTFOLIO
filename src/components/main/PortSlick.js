@@ -121,7 +121,7 @@ export default function PortSlick(props) {
                     <div className="card-body">
                       <h5 className="card-title">WEATHER_APP</h5>
                       <p className="card-text">React,OPENWEATHER_API PROJECT WITH GOLD</p>
-                      <Link to="https://mrabubakarjuttgoldenportfolio.netlify.app/" className="btn text-danger">WEATHER_APP</Link>
+                      <Link to="https://mrabubakarjuttweatherapp.netlify.app/" className="btn text-danger">WEATHER_APP</Link>
                     </div>
                   </div>
         </div>
