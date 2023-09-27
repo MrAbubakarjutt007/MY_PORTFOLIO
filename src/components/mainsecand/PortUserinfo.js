@@ -44,7 +44,7 @@ export default function PortUserinfo(props){
                   hard effort !!"
                   
               </p>
-                <a className="btn" id='contactus' href="/">CONTECT-US</a>
+                <a className="btn" id='contactus' href="/ContectMe">CONTACT-US</a>
                   <div><img className='animate' src={glassesimg} alt="glassesimg" width={200}/>
                 </div>
             </div>
