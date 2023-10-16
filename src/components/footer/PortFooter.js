@@ -9,7 +9,7 @@ export default function PortFooter(props) {
                <div className='itemgit'>
                  <Link to="https://github.com/MrAbubakarjutt007?tab=repositories" className="btn"> <img src={pngegg} alt={pngegg} id='autodata'/></Link>
                  <h3><strong className='dark'>abubakarjuttabubakar553@gmail.com,</strong></h3>
-                 <span className='dark'>MrAbubakarjutt007</span>
+                 <span className='dark'>MrAbubakarjutt0007</span>
                </div>
           
     </div>
