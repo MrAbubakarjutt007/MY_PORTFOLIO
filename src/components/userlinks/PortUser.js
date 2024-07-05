@@ -24,7 +24,12 @@ useEffect(()=>
                <p className='danger mx-5' style={{fontSize:'17px',marginTop:'70px',fontFamily:'serif'}}>
                 <strong style={{color:props.mode==='dark'?'white':'black'}}>
                             Full-stack Developer with experience in React,JavaScript,      
-                            C/c++, HTML/CSS, React,WordPress,php,MySQL,Git and GitHub.           
+                            C/c++, HTML/CSS,React,WordPress with Elementer,php,LARAVEL,vue.js,
+                            TAILWIND CSS,MySQL,Git and GitHub.
+                            <br></br>
+                            <b className='danger'>GRAPHIC DESIGNER</b><br></br>
+                           <b className='danger'>VIDEO EDITOR</b><br></br>
+                           <b className='danger'>INFLUNCER facebook/instagram</b>           
                 </strong>
                 </p>
                 <div className="icons text-center my-5">
@@ -43,7 +48,7 @@ useEffect(()=>
            <div className="card" id='moves'>
                  <img src={glasses} className="my-3" alt="glasses" width={100} />
                     <div className="card-body">
-                      <h5 className="card-title">BOOTSTRAP</h5>
+                      <h5 className="card-title">LARAVEL</h5>
                       <p className="card-text" style={{color:props.mode==='dark'?'white':'black'}}>EASSY WAY TO CREATE WEB SITE <span className=''>IF YOU HAVE BASIC NOLIGE</span></p>
                       
                       <Link to="https://getbootstrap.com/docs/5.0/getting-started/introduction/" className="btn text-danger"  style={{fontSize:'20px'}}>BOOTSTRAP<i className="fa-brands fa-bootstrap"></i></Link>
