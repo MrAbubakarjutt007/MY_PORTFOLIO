@@ -34,7 +34,7 @@ export default function PortUserinfo(props){
          <div className="col-lg-6 col-md-6 col-12"> 
         <div className="item2">
             <div className="data">
-              <h1 className="data1"  style={{color:props.mode==='dark'?'white':'#8941d9'}}>Hi; I Am</h1>
+              <h1 className="data1"  style={{color:props.mode==='dark'?'white':'#8941d9'}}>Hy; I Am</h1>
               <span><h1 className="data2">ABUBAKAR ABDUL-GHAFFAR-PASHA</h1></span>
               <p className='changetext' style={{color:props.mode==='dark'?'white':'black'}}>
                   An independent Full-stack Developer who likes to build things for the web and is 
